@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee_shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+</head>
+<body>
+    <header>
+        <!-- nav -->
+        <nav>
+            <figure>
+                <img src="./Image/logo.svg" alt="logo">
+            </figure>
+            <ul id="menuList">
+                <li><a href="index.html">home</a></li>
+                <li><a href="#coffee">coffee</a></li>
+                <li><a href="#dessert">dessert</a></li>
+                <li><a href="#shop">shop</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#login">login</a></li>
+            </ul>
+            <div class="search">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+        
+        <!-- head -->
+        <div class="head_content">
+            <span>welcome!</span>
+            <h1>We serve the richest coffee<br>in the city!</h1>
+            <button> Order Now</button>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- service_section -->
+        <section class="service">
+            <figure>
+                <img src="./Image/coffe.svg" alt="coffee">
+                <figcaption>Hot Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="./Image/cupwithice.svg" alt="cupwithice">
+                <figcaption>Cold Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="./Image/cup.svg" alt="cup">
+                <figcaption>Cup Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="./Image/cake.svg" alt="cake">
+                <figcaption>dessert</figcaption>
+            </figure>   
+        </section>
+
+        <!-- coffee_section -->
+        <section id="coffee">
+            <h2>Our Special Coffee</h2>
+            <div class="content_cards">
+                <div class="arrow">
+                    <figure>
+                        <img src="./Image/left_arrow.svg" alt="left_arrow">
+                    </figure>    
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="./Image/lungoCaffee.jpg" alt="lungoCaffee">
+                    </figure>
+                    <h3>Lungo Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 199</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>    
+                <div class="card">
+                    <figure>
+                        <img src="./Image/balgonaCoffee.jpg" alt="balgonaCoffee">
+                    </figure>
+                    <h3>Dalgona Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 159</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>    
+                <div class="card">
+                    <figure>
+                        <img src="./Image/icedCoffee.webp" alt="icedCoffee">
+                    </figure>
+                    <h3>Iced Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 149</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>    
+                <div class="card">
+                    <figure>
+                        <img src="./Image/filtercoffee.webp" alt="filtercoffee">
+                    </figure>
+                    <h3>Filter Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 59</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>
+                <div class="arrow">
+                    <figure>
+                        <img src="./Image/right_arrow.svg" alt="right_arrow">
+                    </figure>    
+                </div>
+            </div>
+        </section>
+
+        <!-- dessert_section -->
+        <section id="dessert">
+            <h2>Our Special Desserts</h2>
+            <div class="content_cards">
+                <div class="arrow">
+                    <figure>
+                        <img src="./Image/left_arrow.svg" alt="left_arrow">
+                    </figure>    
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="./Image/gulabJamun.jpg" alt="gulabJamun">
+                    </figure>
+                    <h3>Gulab Jamun</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 199</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>    
+                <div class="card">
+                    <figure>
+                        <img src="./Image/chocolateTiramisu.jpg" alt="chocolateTiramisu">
+                    </figure>
+                    <h3>Chocolate Tiramisu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 250</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>    
+                <div class="card">
+                    <figure>
+                        <img src="./Image/Churros.jpg" alt="Churros">
+                    </figure>
+                    <h3>Churros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 170</span>
+                        <a href="">Order Now</a>
+                    </div>
+                </div>    
+                <div class="card">
+                    <figure>
+                        <img src="./Image/australianLamingtons.jpg" alt="australianLamingtons">
+                    </figure>
+                    <h3>Australian Lamingtons</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="price">
+                        <span>Rs. 280</span>
+                        <a href="">Order Now</a>    
+                    </div>
+                </div>
+                <div class="arrow">
+                    <figure>
+                        <img src="./Image/right_arrow.svg" alt="right_arrow">
+                    </figure>    
+                </div>
+            </div>
+        </section>
+        
+        <!-- check_section -->
+        <section id="shop">
+            <figure>
+                <img src="./Image/handseithcoffee.png" alt="handseithcoffee">
+            </figure>
+            <div class="check_product">
+                <h2>Check out our best<br>coffee betans</h2>
+                <button>Explore our prouducts</button>
+            </div>
+            <figure>
+                <img src="./Image/coffee.png" alt="coffee">
+            </figure>
+        </section>
+
+        <!-- feedback_section -->
+        <section id="about">
+            <h2>Our happy customers</h2>
+            <div class="customer_feedback">
+                <div class="customer_card">
+                    <div class="flex_content">
+                        <figure>
+                            <img src="./Image/customer2.jpg">
+                            <figcaption>John Adams</figcaption>
+                        </figure>
+                        <div class="star">
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>    
+                        </div>    
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur <br>
+                        distinctio, voluptate mollitia maiores<br>
+                        Fugit, maxime? Qui deserunt ex,<br>
+                        odit consectetur <br>
+                    </p>
+                </div>
+                <div class="customer_card">
+                    <div class="flex_content">
+                        <figure>
+                            <img src="./Image/customer1.png.jpg">
+                            <figcaption>John Adams</figcaption>
+                        </figure>
+                        <div class="star">
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>    
+                        </div>    
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur <br>
+                        distinctio, voluptate mollitia maiores<br>
+                        Fugit, maxime? Qui deserunt ex,<br>
+                        odit consectetur <br>
+                    </p>
+                </div>
+                <div class="customer_card">
+                    <div class="flex_content">
+                        <figure>
+                            <img src="./Image/customer3.jpg">
+                            <figcaption>John Adams</figcaption>
+                        </figure>
+                        <div class="star">
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>
+                            <figure>
+                                <img src="./Image/star.svg" alt="star">
+                            </figure>    
+                        </div>    
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur <br>
+                        distinctio, voluptate mollitia maiores<br>
+                        Fugit, maxime? Qui deserunt ex,<br>
+                        odit consectetur <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- login_section -->
+        <section id="login">
+            <figure>
+                <img src="./Image/boffeeBeans1.png">
+            </figure>
+            <div class="contact">
+                <h2>Join in and get 15% Off!</h2>
+                <p>Lorem ipsum dolor sit amet consect voluptate mollitia</p>
+                <form action="" method="">
+                    <input type="email" name="email" placeholder="Enter your email" required />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <figure>
+                <img src="./Image/boffeeBeans2.png">
+            </figure>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer_content">
+        <figure>
+            <img src="./Image/logo.svg" alt="logo">
+        </figure>
+        <div class="content">
+            <h5>privacy</h5>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">coffee</a></li>
+                <li><a href="">dessert</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h5>services</h5>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">coffee</a></li>
+                <li><a href="">dessert</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h5>about us</h5>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">coffee</a></li>
+                <li><a href="">dessert</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h5>information</h5>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">coffee</a></li>
+                <li><a href="">dessert</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h5>social media</h5>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <!-- topButton -->
+    <button onclick="scrollToTop()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script>
+                function scrollToTop(){
+            window.scrollTo(0 ,0)
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
